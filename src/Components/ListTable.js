@@ -7,7 +7,7 @@ const ListTable = (props) => (
       <table>
         <thead>
           <tr>
-            <th>Sr.no</th>
+            
             <th>Name</th>
             <th>Email</th>
             <th>Age</th>
@@ -19,7 +19,7 @@ const ListTable = (props) => (
         <tbody>
           {props.employees.map((employee) => (
             <tr key={employee.id}>
-              <td>{employee.id}</td>
+              
 
               <td>{employee.name}</td>
               <td>{employee.email}</td>
