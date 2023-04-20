@@ -1,0 +1,18 @@
+.App {
+  margin: auto;
+  max-width: 70%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #f3f3f4;
+  padding: 2rem;
+}
+.App h2,
+h3 {
+  text-align: center;
+}
+.App h1 {
+  color: rgb(240, 92, 121);
+}

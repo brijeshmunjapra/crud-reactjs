@@ -1,0 +1,47 @@
+.employee_form {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .MuiTextField-root {
+    width: 20rem;
+  }
+  .MuiSelect-select {
+    width: 17.1rem;
+  }
+}
+.submit-button {
+  border: none;
+  background-color: rgb(240, 92, 121);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 5px;
+}
+.submit-button:hover {
+  background-color: crimson;
+}
+.table-button {
+  border: none;
+  background-color: rgb(240, 92, 121);
+  color: #fff;
+  padding: 0.5rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 3px;
+}
+.table-button:hover {
+  background-color: crimson;
+}
+.table-list {
+  td,
+  th {
+    border: 1px solid black;
+    padding: 10px;
+  }
+  table {
+    border-collapse: collapse;
+  }
+}
